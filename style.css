@@ -1,0 +1,81 @@
+button {
+    background-color: rgba(11, 78, 29, 0.525);
+    color: aliceblue;
+    width: 30%;
+    border: none;
+    cursor: pointer;
+    padding: 14px 20px;
+    margin: 10px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+input {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 10px;
+}
+
+.container {
+    background-color: aliceblue;
+    width: 50%;
+}
+
+#error {
+    color: red;
+    display: table;
+    margin: 0 auto;
+}
+
+.card{
+    width: 20%;
+    height: 20%;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 16px;
+    display: block;
+    float: left;
+}
+
+.card:hover{
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.content{
+    padding: 4px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+#scores
+{
+    width: 50%;
+    border-collapse: collapse;
+}
+
+#scores th, #scores td {
+    border: 1px solid green;
+    padding: 8px;
+    text-align: center;
+};
+
+#scores tr:nth-child(even)
+{
+    background-color: aquamarine;
+}
+
+#scores tr:hover{
+    background-color: darkmagenta;
+}
+
+#scores th
+{
+    background-color: aqua;
+    color: aliceblue;
+}
